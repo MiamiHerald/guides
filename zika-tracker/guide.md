@@ -4,15 +4,16 @@
 
 ### If installing for the first time (Cloning and installing the source code)
 
-* In your console, navigate to where you want to install the project
+* In your console, navigate to where you want to install the project.
 
-* Run `git clone git@github.com:MiamiHerald/data-viz_zika-tracker.git zika-tracker` (that's the SSH url — do not use https)
+* Run `git clone git@github.com:MiamiHerald/data-viz_zika-tracker.git zika-tracker` (that's the SSH url — do not use https).
 
 * `cd` into the `zika-tracker` folder and run `npm install`.  
 
 ### If already installed (Pulling new code from Github)
 
-* In your console, `cd` into the `zika-tracker` folder
+* In your console, `cd` into the `zika-tracker` folder.
+
 * run `git pull` to get the latest version of the site from Github.
 
 ## Starting the server
@@ -53,11 +54,11 @@ To push your updates to Github, stop the server (using ctrl-C) and run the follo
 
 * Create a production build of the project by running `npm run production`.  This will run through the production build process (minifying the CSS/JS, compiling the HTML partials, etc.), and spit out the production code to the `public` folder.
 
-* Open the local folder (hint: you can run `open .` to launch it in your browser)
+* Open the local folder (hint: you can run `open .` to launch it in your browser).
 
 * Open your FTP client and navigate to `nm/data/MiamiHerald/MiamiHerald/static/media/projects/2016/zika-interactive-v2/site/`.
 
-* Copy all the files in your local `public` folder (`index.html`, `javascripts`, `stylesheets`, etc.), to the `zika-interactive-v2` folder on Pubsys.
+* Copy all the files in your local `public` folder (`index.html`, `javascripts`, `stylesheets`, etc.), to the `zika-interactive-v2/site/` folder on Pubsys.
 
 ### Updating the `index.html` in Content Studio
 
