@@ -24,7 +24,7 @@ After the npm installation completes, run `gulp` to start the server (hit Ctrl+C
 
 * You can use any text-editor to edit the code and the local changes will update live in your browser.
 
-* To edit in Atom: Open new tab in console and type in `atom .` (the new tab knows you're in the zika-tracker folder).
+* To edit in Atom: Open new tab in console and type in `atom .` (the new tab knows you're in the affordable-housing-tool folder).
 
 ### HTML
 
