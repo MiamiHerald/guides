@@ -2,7 +2,7 @@
 
 ## Getting the code
 
-### Cloning and installing the source code (Installing for the first time)
+### If installing for the first time (Cloning and installing the source code)
 
 * In your console, navigate to where you want to install the project
 
@@ -10,9 +10,10 @@
 
 * `cd` into the `zika-tracker` folder and run `npm install`.  
 
-### Pulling new code from Github
+### If already installed (Pulling new code from Github)
 
-In your console, run `git pull` to get the latest version of the site from Github.
+* In your console, `cd` into the `zika-tracker` folder
+* run `git pull` to get the latest version of the site from Github.
 
 ## Starting the server
 
