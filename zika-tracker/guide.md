@@ -6,7 +6,7 @@
 
 * In your console, navigate to where you want to install the project
 
-* Run `git clone https://github.com/MiamiHerald/data-viz_zika-tracker.git zika-tracker`
+* Run `git clone git@github.com:MiamiHerald/data-viz_zika-tracker.git zika-tracker` (that's the SSH url — do not use https)
 
 * `cd` into the `zika-tracker` folder and run `npm install`.  
 
@@ -43,7 +43,7 @@ To push your updates to Github, stop the server (using ctrl-C) and run the follo
 
 * `git add .` to stage your changes to be committed.
 
-* `git commit -m [your message]` to commit your changes (add a message describing your update, so you remember).
+* `git commit -m "[your message]"` to commit your changes (add a message describing your update, so you remember).
 
 * `git push` to push your changes to Github.
 
@@ -53,7 +53,9 @@ To push your updates to Github, stop the server (using ctrl-C) and run the follo
 
 * Create a production build of the project by running `npm run production`.  This will run through the production build process (minifying the CSS/JS, compiling the HTML partials, etc.), and spit out the production code to the `public` folder.
 
-* Open your FTP client and navigate to `nm/data/MiamiHerald/MiamiHerald/static/media/projects/2016/zika-interactive-v2/`.
+* Open the local folder (hint: you can run `open .` to launch it in your browser)
+
+* Open your FTP client and navigate to `nm/data/MiamiHerald/MiamiHerald/static/media/projects/2016/zika-interactive-v2/site/`.
 
 * Copy all the files in your local `public` folder (`index.html`, `javascripts`, `stylesheets`, etc.), to the `zika-interactive-v2` folder on Pubsys.
 
@@ -63,9 +65,9 @@ To push your updates to Github, stop the server (using ctrl-C) and run the follo
 
 * Right-click on the story and select 'Edit Source'.
 
-* Be sure to add self closing slashes to the `img` and `source` elements. Copy the contents of `public/index.html` from `<!-- START COPY -->` through `<!-- STOP COPY -->`.
+* Be sure to add self closing slashes to the `img` (there are 8) and `source` (there's 1 video) elements. Copy the contents of `public/index.html` from `<!-- START COPY -->` through `<!-- STOP COPY -->`.
 
-* Paste the contents in Content Studio inside `<!-- PASTE BELOW -->` through `<!-- PASTE ABOVE -->`.
+* Paste the contents in Content Studio starting with `<div id="loadingZika">` through `</section>`.
 
 * Save and Publish!
 
