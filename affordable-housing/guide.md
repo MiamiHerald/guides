@@ -16,6 +16,16 @@
 
 * run `git pull` to get the latest version of the site from Github.
 
+## To switch to the Spanish branch
+
+* This is a brached project. The "master" is in english. The branch is in Spanish. In Atom, you can tell what branch you're in by looking in the bottom right corner.
+
+* Run `git checkout es` to switch to the Spanish branch
+
+* Run `git checkout master` to switch to the English branch
+
+* Note: you cannot switch branches if you have changes that are not committed (unstaged)
+
 ## Starting the server
 
 After the npm installation completes, run `gulp` to start the server (hit Ctrl+C to stop the server).
