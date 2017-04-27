@@ -39,7 +39,7 @@ JS is located in `src/javascripts/modules/`.
 
 ## Updating the source code on Github
 
-To push your updates to Github, run the following commands:
+To push your updates to Github, stop the server (using ctrl-C) and run the following commands:
 
 * `git add .` to stage your changes to be committed.
 
