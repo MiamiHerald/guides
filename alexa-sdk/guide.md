@@ -18,7 +18,7 @@
 
 ## Editing the code
 
-* You can use any text-editor to edit the code and the local changes will update live in your browser.
+* You can use any text-editor to edit the code.
 
 * To edit in Atom: Open new tab in console and type in `atom .` (the new tab knows you're in the alexa-skill folder).
 
